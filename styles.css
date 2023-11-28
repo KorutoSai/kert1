@@ -1,0 +1,168 @@
+:root {
+    --gray: #6d7361;
+    --od: #9b6557;
+    --tan: #c0c7ab;
+    --khaki: #b6ad90;
+  }
+
+  /* dark gray #2d3028 */
+
+*{margin: 0;
+box-sizing: border-box;
+
+font-family: 'Times New Roman', Times, serif;}
+
+/*navbar*/
+#navbar{ 
+    background-color: var(--khaki);
+width:auto;
+height:70px;
+position: -webkit-sticky; /* Safari */
+position: sticky;
+top: 0;
+display: flex;
+justify-content: flex-end;}
+
+
+@media only screen and (max-width: 400px) {
+    #navbar{ 
+        background-color: var(--khaki);
+    width:auto;
+    height:70px;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content:flex-start;}
+ 
+  }
+
+
+#navbar-container{ display: flex;
+justify-content: space-evenly;
+
+width: 30%;
+position: absolute;}
+
+.nav-link{   display: block;
+    color: white;
+    text-align: center;
+    padding: 17px 10px;
+    text-decoration: none;
+    position: relative;
+top: 10px;}
+
+    .nav-link:hover {
+        background-color: #ada58d;}
+
+/*Welcome*/
+#welcome-section{ background-color: var(--gray);
+height: 100vh;
+width: 100%;
+
+display: flex;
+justify-content: center;}
+
+
+.welcome-img{
+border-radius: 50%;
+    height: 400px;
+    width: 400px;   
+    
+ }
+
+
+
+
+
+
+/*Project*/
+#projects{background-color: var(--tan);
+    height: auto;
+    width: 100%;
+    padding-top: 100px;;
+    padding-bottom: 100px;
+ }
+
+.project-tile{
+    height: auto;
+    width: 80%;
+margin:auto;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly; }
+
+
+.header{ width: 100%;
+    text-align: center;
+    height: 100px;
+    color: rgb(231, 231, 231);}
+
+
+.project-header{ width: 100%;
+text-align: center;
+height: 100px;
+color: rgb(110, 108, 108);}
+
+.project-paragraph{ width: 100%;
+    text-align: center;
+color: rgb(231, 231, 231);}
+
+
+
+ .profile-link{ width:300px;
+height:300px;
+background-color: var(--khaki);
+
+}
+
+.project-link-img{ width:290px;
+    height:240px; 
+margin:9px;}
+
+.project-link-main{   display: block;
+    color: white;
+    text-align: center;
+    padding: 17px 10px;
+    text-decoration: none;
+    transition: 0.5s background-color ;
+ }
+
+.project-link-main:hover {
+    background-color: #77715d;
+font-size: 1.3rem;}
+
+
+
+ /*Proflink*/
+ .profile-link{background-color: var(--gray);
+    height: 80vh;
+    width: 100%;
+
+    padding-top: 100px;
+
+ }
+
+ .icon{ width: 40px;
+    height: 40px;}
+    .profile-link-container{display: flex;
+    justify-content: center;}
+
+    #profile-link{  display: block;
+        color: white;
+        text-align: center;
+        padding: 17px 10px;
+        text-decoration: none;
+        transition: 0.5s background-color ;
+     }
+
+     #profile-link:hover {
+     
+    font-size: 1.3rem;}
+
+    .link-container{ display: flex;
+    flex-direction: row;
+justify-content: space-between;
+padding: 17px 10px;
+
+}
